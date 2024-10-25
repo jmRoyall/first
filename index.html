@@ -24,13 +24,14 @@
                 <input class="form-control input" type="text" 
                 v-bind:placeholder="text" 
                 v-on:input="inputString"
-                v-on:keypress="">
+                v-on:keypress.enter="newNote">
             </div>
             <button @click="newNote" class="btn btn-outline-primary">Добавить</button>
 
             <ul class="list-group">
                 <li v-for="el in notes" class="list-group-item">
                     {{ el }}
+                    <button class="btn btn-danger">Delete</button>
                 </li>
             </ul>
         </div>
