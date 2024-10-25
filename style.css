@@ -1,0 +1,13 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+button {
+    margin: 10px 3px;
+}
+.form-control, .list-group-item {
+    width: 800px;
+}
