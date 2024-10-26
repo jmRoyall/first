@@ -5,9 +5,17 @@
     margin: 20px;
     padding: 20px;
 }
+.btn {
+    border-radius: 999px;
+}
 button {
     margin: 10px 3px;
 }
 .form-control, .list-group-item {
     width: 800px;
+    align-items: center;
+}
+li button {
+    float: right;
+    margin: 0;
 }
